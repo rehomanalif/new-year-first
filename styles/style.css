@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+section{
+    width: 1320px;
+    margin: auto;
+}
+
+.color{
+    color: #FF0000;
+}
+.bg{
+    background-color: #FF0000;
+}
+
+/* header  */
+.header{
+    background-image: url('/images/BannerImage.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 1320px;
+    margin: auto;
+}
+.header-text{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 450px;
+    
+}
+.header-text h2{
+    font-size: 50px;
+}
+.header-text h4{
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/* 60% off section  */
+.off-section{
+    width: 800px;
+    margin: auto;
+}
+.text-area{
+    text-align: center;
+    margin-top: 50px;
+}
+.text-area h1{
+    font-size: 50px;
+}
+.text-area h3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.text-area p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* party-zone */
+.party-zone{
+    margin-top: 100px;
+}
+.party-area{
+    display: flex;
+    background-image: url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    align-items: center;
+}
+.party-area-text{
+    color: white;
+    padding-left: 5rem;
+    width: 55%;
+}
+.party-area-text h1{
+    font-size: 50px;
+    width: 90%;
+}
+.party-area-text a{
+   color: white;
+   text-decoration: none;
+   font-weight: 600;
+}
+.party-area-text a:hover{
+    text-decoration: underline;
+}
+.party-area-img{
+    padding-left: 3rem;
+}
+
+/* time zone  */
+.time-part{
+    width: 1320px;
+    margin: auto;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(234, 169, 169), white);
+}
+.time-part h3{
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.time-part a{
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* offer-coming part  */
+.offer-coming{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.offer-part-one{
+    width: 450px;
+    margin-right: 30px;
+}
+.offer-part-one h2{
+    font-size: 30px;
+}
+.offer-part-one p{
+    width: 90%;
+    color: #000000b5;
+}
+.offer-part-two{
+    width: 350px;
+    margin: auto;
+}
+.offer-part-two p{
+    width: 90%;
+    color: #000000b5;
+}
+.offer-part-two h2{
+    font-size: 30px;
+}
+.offer-part-img {
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+
+
+/* footer  */
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    margin-top: 200px;
+    padding: 50px 20px;
+    background-color: black;
+    color: white;
+}
+.footer-social {
+    width: 20%;
+    margin: auto;
+    padding: 10px 10px;
+}
