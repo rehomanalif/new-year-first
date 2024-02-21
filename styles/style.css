@@ -27,6 +27,7 @@ section{
     background-repeat: no-repeat;
     width: 1320px;
     margin: auto;
+    margin-top: 20px;
 }
 .header-text{
     width: 30%;
@@ -40,6 +41,7 @@ section{
 }
 .header-text h2{
     font-size: 50px;
+    margin-top: 35px;
 }
 .header-text h4{
     margin-bottom: -30px;
@@ -179,4 +181,22 @@ section{
     width: 20%;
     margin: auto;
     padding: 10px 10px;
+}
+
+/* portfolio part  */
+.portfolio-asset {
+    margin-top: 30px;
+}
+.port-second{
+    margin-top: 10px;
+}
+.portfolio-text h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-text p {
+    width: 50%;
+    color: #000000c2;
 }
